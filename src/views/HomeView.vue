@@ -37,7 +37,7 @@ export default {
   methods:{
     init_chat() {
       //ask for a nickname
-      if(this.nickname == "") this.nickname = prompt("Enter a nickname:");
+      if(this.nickname == "") this.nickname = prompt("Masukan Nama:");
 
       //connect to Sockets Bay
       var sockets_bay_url = `wss://socketsbay.com/wss/v2/1/${this.sockets_bay_api_key}/`;
